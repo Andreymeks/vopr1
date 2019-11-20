@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 1660px;
+	margin: 0 auto;
+}
+.nav_container {
+	height: 80px;
+	width: 1660px;
+}
+a {
+	text-decoration: none;
+}
+.menu {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+.menu__link {
+	width: 79px;
+	height: 17px;
+	color: #000000;
+	font-family: "Yanone Kaffeesatz";
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: block;
+	padding: 20px;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+.promo {
+	display: flex;
+	padding-bottom: 61px;
+}
+.promo_container_one {
+	
+	width: 1108px;
+	height: 540px;
+}
+.promo_container_two {
+	background-image: url(img/layer_2.jpg);
+	width: 280px;
+	height: 540px;
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+}
+.promo_container_three {
+	background-image: url(img/layer_3.jpg);
+	width: 269px;
+	height: 540px;
+}
+.promo_container_one_block {
+	display: flex;
+}
+.promo_container_box {
+	background-color: #000000;
+	height: 100px;
+}
+.text_box {
+	width: 54px;
+	height: 17px;
+	color: #ffffff;
+	font-family: "Yanone Kaffeesatz";
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.container_one {
+	display: flex;
+	padding-bottom: 33px;
+}
+.container_two {
+	display: flex;
+	justify-content: space-between;
+}
+.promo_box_one {
+	background-image: url(img/Layer_7.jpg);
+	width: 400px;
+	height: 529px;
+}
+.promo_box_two {
+	background-image: url(img/Layer_5.jpg);
+	width: 400px;
+	height: 529px;
+}
+.promo_box_four {
+	background-image: url(img/Layer_4.jpg);
+	width: 400px;
+	height: 529px;
+}
+.promo_box_three {
+	background-image: url(img/Layer_6.jpg);
+	width: 400px;
+	height: 529px;
+}
+.promo_box {
+	width: 400px;
+	margin-bottom: 100px;
+}
+.name_product {
+	margin-top: 19px;
+	margin-bottom: 18px;
+	height: 18px;
+	color: #000000;
+	font-family: "Yanone Kaffeesatz";
+	font-size: 24px;
+	font-weight: 700;
+}
+.about_product {
+	/* Style for "Описание:" */
+	width: 386px;
+	height: 31px;
+	color: #000000;
+	font-family: "Clear Sans";
+	font-size: 16px;
+	font-weight: 300;
+}
+.size_product_number {
+	height: 13px;
+	color: #000000;
+	font-family: "Yanone Kaffeesatz";
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.size_product_old {
+	width: 46px;
+	height: 18px;
+	border-radius: 4px;
+	border: 1px solid #ef7f1a;
+	/* Style for "44" */
+	width: 20px;
+	height: 12px;
+	color: #ef7f1a;
+	font-family: "Clear Sans";
+	font-size: 16px;
+	font-weight: 700;
+}
+.size_product {
+	/* Style for "Прямоуголь" */
+	width: 46px;
+	height: 18px;
+	border-radius: 4px;
+	border: 1px solid #ef7f1a;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.size_product_else {
+	width: 20px;
+	height: 12px;
+	color: #ef7f1a;
+	font-family: "Clear Sans";
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 auto;
+}
+.product_block {
+	display: flex;
+	justify-content: space-between;
+}
+.product_block_price {
+	display: flex;
+	margin-top: 25px;
+}
+.bascet {
+	background-image: url(img/basket.jpg);
+	width: 24px;
+	height: 22px;
+	background-color: #ef7f1a;
+	margin-right: 23px;
+	margin-left: 18px;
+	margin-top: 4px;
+}
+.product_price {
+	height: 29px;
+	color: #000000;
+	font-family: "Yanone Kaffeesatz";
+	font-size: 36px;
+	font-weight: 700;
+}
+.flag {
+	background-image: url(img/flame_one.jpg);
+	width: 18px;
+	height: 12px;
+	margin-left: 21px;
+	margin-top: 51px;
+	position: absolute;
+}
+.tag {
+	width: 46px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: #000000;
+    margin-top: 82px;
+    margin-left: 19px;
+    position: absolute;
+}
+.tag_text {
+	width: 25px;
+	height: 8px;
+	color: #ffffff;
+	font-family: "Clear Sans";
+	font-size: 14px;
+	font-weight: 700;
+	/*letter-spacing: -0.7px;*/
+	margin: 0 auto;
+}
+.photo{
+    position: relative;
+    height: 300px;
+}
+
+.photo img{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    transition: opacity 1s;
+}
+
+.photo img.shown{
+     opacity: 1;
+}
+
+
